@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="WebRunnerSuite" time="1.629" errors="3" skipped="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\vikas\IdeaProjects\testframework"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="test" value="WebRunnerSuite"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\vikas\IdeaProjects\testframework"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\vikas\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Java\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\VisualSVN\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Java\jdk1.8.0_121\bin;C:\Java\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\vikas"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="vikas"/>
+    <property name="java.class.path" value="C:\Java\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dtest=WebRunnerSuite"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Java\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: Login successfully" name="Scenario: Login successfully" time="0.385">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at org.openqa.selenium.support.events.EventFiringWebDriver.extractInterfaces(EventFiringWebDriver.java:119)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.&lt;init&gt;(EventFiringWebDriver.java:91)
+	at web.SharedDriver.&lt;init&gt;(SharedDriver.java:19)
+	at hooks.Hooks.&lt;init&gt;(Hooks.java:17)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
+	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
+	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
+	at cucumber.runtime.java.picocontainer.PicoFactory.getInstance(PicoFactory.java:37)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>Feature: 
+  In order to assign a test
+  As a parent
+  I should be able to login successfully
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: Login successfully" name="Scenario: Login successfully" time="0.394">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at org.openqa.selenium.support.events.EventFiringWebDriver.extractInterfaces(EventFiringWebDriver.java:119)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.&lt;init&gt;(EventFiringWebDriver.java:91)
+	at web.SharedDriver.&lt;init&gt;(SharedDriver.java:19)
+	at hooks.Hooks.&lt;init&gt;(Hooks.java:17)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
+	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
+	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
+	at cucumber.runtime.java.picocontainer.PicoFactory.getInstance(PicoFactory.java:37)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>Failure in before hook:Hooks.setUp()
+Message: java.lang.NullPointerException
+	at org.openqa.selenium.support.events.EventFiringWebDriver.extractInterfaces(EventFiringWebDriver.java:119)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.&lt;init&gt;(EventFiringWebDriver.java:91)
+	at web.SharedDriver.&lt;init&gt;(SharedDriver.java:19)
+	at hooks.Hooks.&lt;init&gt;(Hooks.java:17)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
+	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
+	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
+	at cucumber.runtime.java.picocontainer.PicoFactory.getInstance(PicoFactory.java:37)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+      java.lang.NullPointerException
+      	at org.openqa.selenium.support.events.EventFiringWebDriver.extractInterfaces(EventFiringWebDriver.java:119)
+      	at org.openqa.selenium.support.events.EventFiringWebDriver.&lt;init&gt;(EventFiringWebDriver.java:91)
+      	at web.SharedDriver.&lt;init&gt;(SharedDriver.java:19)
+      	at hooks.Hooks.&lt;init&gt;(Hooks.java:17)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
+      	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
+      	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+      	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+      	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+      	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+      	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
+      	at cucumber.runtime.java.picocontainer.PicoFactory.getInstance(PicoFactory.java:37)
+      	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+      	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+      	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+      	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+      	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+      	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+      	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: Login successfully" name="Given I am on login page" time="0.424">
+    <skipped/>
+    <system-out>Failure in before hook:Hooks.beforeScenario()
+Message: java.lang.NullPointerException
+	at org.openqa.selenium.support.events.EventFiringWebDriver.extractInterfaces(EventFiringWebDriver.java:119)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.&lt;init&gt;(EventFiringWebDriver.java:91)
+	at web.SharedDriver.&lt;init&gt;(SharedDriver.java:19)
+	at hooks.Hooks.&lt;init&gt;(Hooks.java:17)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
+	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
+	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
+	at cucumber.runtime.java.picocontainer.PicoFactory.getInstance(PicoFactory.java:37)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+      java.lang.NullPointerException
+      	at org.openqa.selenium.support.events.EventFiringWebDriver.extractInterfaces(EventFiringWebDriver.java:119)
+      	at org.openqa.selenium.support.events.EventFiringWebDriver.&lt;init&gt;(EventFiringWebDriver.java:91)
+      	at web.SharedDriver.&lt;init&gt;(SharedDriver.java:19)
+      	at hooks.Hooks.&lt;init&gt;(Hooks.java:17)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
+      	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
+      	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+      	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+      	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+      	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+      	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+      	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
+      	at cucumber.runtime.java.picocontainer.PicoFactory.getInstance(PicoFactory.java:37)
+      	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+      	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+      	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+      	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+      	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+      	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+      	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+      	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+      	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+      	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+      	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+      	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: Login successfully" name="Scenario: Login successfully" time="0.426">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at org.openqa.selenium.support.events.EventFiringWebDriver.extractInterfaces(EventFiringWebDriver.java:119)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.&lt;init&gt;(EventFiringWebDriver.java:91)
+	at web.SharedDriver.&lt;init&gt;(SharedDriver.java:19)
+	at hooks.Hooks.&lt;init&gt;(Hooks.java:17)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.picocontainer.injectors.AbstractInjector.newInstance(AbstractInjector.java:145)
+	at org.picocontainer.injectors.ConstructorInjector$1.run(ConstructorInjector.java:342)
+	at org.picocontainer.injectors.AbstractInjector$ThreadLocalCyclicDependencyGuard.observe(AbstractInjector.java:270)
+	at org.picocontainer.injectors.ConstructorInjector.getComponentInstance(ConstructorInjector.java:364)
+	at org.picocontainer.behaviors.AbstractBehavior.getComponentInstance(AbstractBehavior.java:64)
+	at org.picocontainer.behaviors.Stored.getComponentInstance(Stored.java:91)
+	at org.picocontainer.DefaultPicoContainer.getInstance(DefaultPicoContainer.java:699)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:647)
+	at org.picocontainer.DefaultPicoContainer.getComponent(DefaultPicoContainer.java:678)
+	at cucumber.runtime.java.picocontainer.PicoFactory.getInstance(PicoFactory.java:37)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:205)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+  </testcase>
+</testsuite>
