@@ -7,3 +7,7 @@
 *.iml
 out
 gen
+!/src/test/browsers/chromedriver.exe
+!/src/test/browsers/IEDriverServer.exe
+target/generated-sources/
+target/generated-test-sources/
