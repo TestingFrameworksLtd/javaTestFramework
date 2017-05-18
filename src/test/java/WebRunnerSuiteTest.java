@@ -15,5 +15,5 @@ import org.junit.runner.RunWith;
          tags= {"@test"}
         )
 
-public class WebRunnerSuite {
+public class WebRunnerSuiteTest {
 }

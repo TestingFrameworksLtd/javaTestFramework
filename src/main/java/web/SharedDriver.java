@@ -11,13 +11,13 @@ import java.io.IOException;
 /**
  * Created by vikas on 26/02/2017.
  */
-public class SharedDriver extends EventFiringWebDriver {
+public class SharedDriver /*extends EventFiringWebDriver*/ {
 
     public static WebDriver REAL_DRIVER;
-    private static final Thread CLOSE_THREAD = new Thread(){
+   /* private static final Thread CLOSE_THREAD = new Thread(){
         public void run() {REAL_DRIVER.quit();}
-    };
-    public SharedDriver(){super (REAL_DRIVER);}
+    };*/
+    public SharedDriver(){/*super (REAL_DRIVER);*/}
 
     private static String BROWSER_NAME;
 
@@ -52,10 +52,5 @@ public class SharedDriver extends EventFiringWebDriver {
 
     private static void startFirefoxDriver() {
         REAL_DRIVER = new FirefoxDriver();
-    }
-
-    public void deleteAllCookies()
-    {
-        manage().deleteAllCookies();
     }
 }

@@ -5,9 +5,10 @@ utility\JsonUtils.class
 DataAccess\MongoDbConn.class
 utility\FileUtils.class
 hooks\Hooks$1.class
-WebRunnerSuite.class
 utility\DateTimeUtils.class
 DataAccess\OracleDbConn.class
 pageObjects\LoginPage.class
+utility\RestApiUtils.class
 DataAccess\SqlServerConn.class
+WebRunnerSuiteTest.class
 hooks\Hooks.class

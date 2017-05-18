@@ -14,9 +14,8 @@ public class BasePageObject {
         new WebDriverWait(driver,30);
     }
 
-    protected void goToUrl(String url)
-    {
-        driver.manage().deleteAllCookies();
+    protected void goToUrl(String url)    {
+
         driver.get(url);
     }
 
