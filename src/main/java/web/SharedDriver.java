@@ -41,12 +41,12 @@ public class SharedDriver /*extends EventFiringWebDriver*/ {
     }
 
     private static void startIEDriver() {
-        System.setProperty("webdriver.ie.driver",System.getProperty("user.dir") + "\\src\\test\\browsers\\IEDriverServer.exe");
+        System.setProperty("webdriver.ie.driver",System.getProperty("user.dir") + "/src/test/browsers/IEDriverServer.exe");
         REAL_DRIVER = new InternetExplorerDriver();
     }
 
     private static void startChromeDriver() {
-        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\test\\browsers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/browsers/chromedriver.exe");
         REAL_DRIVER = new ChromeDriver();
     }
 
